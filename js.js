@@ -255,7 +255,7 @@ function asyncro(id,source,str) { // affiche resultat dans le idi smart recherch
 
 function chargement_recherche() {
   // ok 
-Ajax("app_section",URL_EX+"/src/data/result_all.php");
+Ajax("app_section","https://bokonzi.com/src/data/result_all.php");
 console.log("ok") ; 
 }
   

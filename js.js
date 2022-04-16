@@ -257,6 +257,11 @@ function chargement_recherche() {
   // ok 
 Ajax("app_section","https://bokonzi.com/src/data/result_all.php");
 console.log("ok") ; 
+
+
+//window.location.replace("https://bokonzi.com/get_all_athles.php"+_this.title);
+
+window.location.replace("https://bokonzi.com/src/data/reponse_recherche.php/"+_this.title);
 }
   
   }
